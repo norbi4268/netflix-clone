@@ -16,11 +16,12 @@ body {
 
 /* showcase */
 .showcase {
+  position: relative;
   height: 70vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  justify-items: center;
 }
 
 .bg-img {
@@ -28,6 +29,29 @@ body {
   opacity: 0.5;
   height: 70vh;
 }
+
+/* navbar */
+.show-nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.logo {
+  width: 25%;
+}
+
+.nav-button {
+  background-color: red;
+  border: 0;
+  padding: 8px;
+  color: white;
+  border-radius: 10%;
+  font-weight: bold;
+}
+/* navbar */
 
 @media (max-width: 768px) {
   .show-content {
@@ -73,8 +97,5 @@ body {
     border-radius: 5%;
   }
 }
-
-
-
 
 /* showcase */
