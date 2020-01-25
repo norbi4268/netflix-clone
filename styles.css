@@ -25,9 +25,10 @@ body {
 }
 
 .bg-img {
-  position: absolute;
+  position: absolute;;
   opacity: 0.5;
   height: 70vh;
+  width: 100%;
 }
 
 /* navbar */
@@ -36,6 +37,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
   width: 90%;
 }
 
@@ -52,9 +54,7 @@ body {
   font-weight: bold;
 }
 /* navbar */
-
-@media (max-width: 768px) {
-  .show-content {
+.show-content {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -82,7 +82,7 @@ body {
   }
 
   .email-insert {
-    width: 100%;
+    width: 90%;
     padding: 15px;
     margin: 10px;
   }
@@ -96,6 +96,5 @@ body {
     font-weight: bold;
     border-radius: 5%;
   }
-}
 
 /* showcase */
