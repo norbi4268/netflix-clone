@@ -98,3 +98,22 @@ body {
   }
 
 /* showcase */
+
+/* main */
+
+.main-content {
+  border-top: 5px solid rgb(99, 99, 99);
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0 5% 0;
+}
+
+.main-img {
+  width: 20em;
+}
+
+.main-title {
+  width: 20em;
+}
