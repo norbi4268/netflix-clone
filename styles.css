@@ -108,6 +108,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5% 0 5% 0;
+  height: 50vh;
 }
 
 .main-img {
@@ -116,4 +117,38 @@ body {
 
 .main-title {
   width: 20em;
+}
+
+/* main */
+
+/* footer */
+
+footer {
+  border-top: 5px solid rgb(99, 99, 99);
+  padding: 5%;
+}
+
+.footer-contantier {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-content {
+  list-style: none;
+  text-align: left;
+}
+
+.footer-links {
+  margin: 5px;
+}
+
+.footer-href {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.footer-href:hover {
+  text-decoration: underline;
 }
